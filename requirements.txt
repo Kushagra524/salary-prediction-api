@@ -12,3 +12,4 @@ fastapi
 uvicorn
 pydantic
 pickle5
+tensorflow==1.12.0
