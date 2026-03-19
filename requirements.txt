@@ -11,3 +11,4 @@ altair==4.2.2
 fastapi
 uvicorn
 pydantic
+tf-keras

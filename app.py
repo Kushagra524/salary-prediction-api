@@ -4,10 +4,11 @@ import numpy as np
 import pickle
 import tensorflow as tf
 import pandas as pd
+import tf_keras as keras
 
 app = FastAPI(title="Salary Prediction API")
 
-model = tf.keras.models.load_model("reg-model.h5")
+model = keras.models.load_model("reg-model.h5")
 
 with open("label_encode_gen.pkl", "rb") as f:
     label_encode_gen = pickle.load(f)
